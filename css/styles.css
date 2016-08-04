@@ -1,0 +1,146 @@
+@import 'https://fonts.googleapis.com/css?family=Arima+Madurai|Cabin+Sketch|Fredericka+the+Great|Schoolbell|Unkempt';
+.nav {
+    font-size: 20px;
+}
+.nav-tabs {
+    padding-top: 15px;
+    border: none;
+}
+.nav-tabs li{
+    padding-left: 50px;
+    font-size: 1em;
+    text-align: top;
+}
+.nav-tabs a{
+    color: #fff;
+    padding: 0px !important;
+}
+.jumbotron, .container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    background-color: transparent;
+}
+.jumbotron{
+    padding-top: 0px !important;
+    padding-bottom: 0px;
+}
+.header-img {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../img/water.jpg');
+    background-color: #0072db;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 600;
+}
+.header-text{
+    padding-top: 165px;
+    padding-left: 40px;
+    color: #0072db;
+    text-align: center;
+    font-size: 60px !important;
+    font-family: "Arima Madurai", cursive;
+    text-shadow: 1px 1px #525252;
+    font-weight: 300;
+}
+.circle-img{
+    background: url('../img/circle.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    position:relative;
+}
+.circle-hdr, .circle-text{
+    text-align: center;
+    font-family: "Fredericka the Great", cursive;
+    position: absolute;
+    padding-top: 95px;
+    width: 100%;
+}
+.circle-img h2{
+    color: #0072db; !important;
+    font-size: 35px !important;
+    margin: 0px !important;
+    font-weight: bold;
+}
+.circle-text{
+    color: #ffffff;
+    font-size: 35px;
+}
+.blank-space{
+    height: 60px;
+}
+.work-notes{
+    font-size: 24px;
+    font-family: "Fredericka the Great", cursive;
+}
+.portfolio-sample{
+    background-color: #b4dbff;
+    margin-top: 30px;
+    height: 80vh;
+    font-family: "Fredericka the Great", cursive;
+    color: #0072db;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 45px;
+}
+.portfolio-img{
+    height: 660px;
+}
+.contact-section{
+    padding: 0px;
+    margin: 0px;
+}
+.contact-header, .contact-text{
+    color: #000000;
+    font-family: "Fredericka the Great", cursive;
+    font-weight: bold;
+}
+.contact-header{
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact-text{
+    width: 1000px;
+    padding-bottom: 20px;
+}
+.contact-background{
+    height: 75vh;
+    padding-top: 75px;
+    background-color: pink;
+    padding-bottom: 30px;
+}
+.contact-form-data{
+    padding-top: 15px;
+    width: 400px;
+    background-color: #5ec00e;
+    color: #ffffff;
+    padding-bottom: 20px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.contact-logo{
+    height: 45px;
+    padding-bottom: 5px;
+}
+.contact-address{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Raleway";
+}
+.footer{
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #000000;
+    color:#ffffff;
+    padding-bottom: 20px;
+}
+.footer-bottom-text{
+    text-align: center;
+}
