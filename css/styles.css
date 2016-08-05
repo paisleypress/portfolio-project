@@ -1,19 +1,24 @@
 @import 'https://fonts.googleapis.com/css?family=Arima+Madurai|Cabin+Sketch|Fredericka+the+Great|Schoolbell|Unkempt';
+@import 'https://fonts.googleapis.com/css?family=Questrial';
 .nav {
-    font-size: 20px;
+    font-size: 16px;
 }
 .nav-tabs {
     padding-top: 15px;
     border: none;
 }
 .nav-tabs li{
-    padding-left: 50px;
-    font-size: 1em;
-    text-align: top;
+    padding-left: 2px;
+    text-align: center;
+    font-family: "Questrial", cursive;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .nav-tabs a{
-    color: #fff;
-    padding: 0px !important;
+    color: #0072db;
+}
+.nav-tabs active{
+    color: #ffffff;
 }
 .jumbotron, .container-fluid{
     padding-left: 0px !important;
@@ -27,7 +32,7 @@
 .header-img {
     width: 100%;
     height: 50vh;
-    background-image: url('../img/water.jpg');
+    background-image: url('../img/starburst.png');
     background-color: #0072db;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,7 +40,7 @@
     font-weight: 600;
 }
 .header-text{
-    padding-top: 165px;
+    padding-top: 130px;
     padding-left: 40px;
     color: #0072db;
     text-align: center;
@@ -43,6 +48,11 @@
     font-family: "Arima Madurai", cursive;
     text-shadow: 1px 1px #525252;
     font-weight: 300;
+}
+.skills-text{
+    font-size: 35px !important;
+    text-align: center;
+    color: #0072db;
 }
 .circle-img{
     background: url('../img/circle.png');
